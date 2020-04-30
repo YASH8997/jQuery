@@ -1,0 +1,286 @@
+.navhide{
+   
+    display: flex;
+    flex-wrap: wrap;
+    color: gray;
+    height: 40px;
+    width: 90%;
+    background-color: whitesmoke;
+    order: 2;
+}
+.collaps{
+    margin-top: 100px;
+    order: 3;
+}
+.collaps1{
+    height: 40px;
+    width: 100%;
+    background-color: whitesmoke;
+    border: none;
+    
+}
+.collaps2{
+    height: 40px;
+    width: 100%;
+    background-color: whitesmoke;
+    border: none;
+  
+}
+.collaps3{
+    height: 40px;
+    width: 100%;
+    background-color: whitesmoke;
+    border: none;
+   
+}
+.collaps2:hover{
+    cursor: pointer;
+}
+.collaps3:hover{
+    cursor: pointer;
+}
+.collaps1:hover{
+    cursor: pointer;
+}
+.all{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.navbar{
+    display: flex;
+    flex-wrap: wrap;
+    color: gray;
+    height: 40px;
+    width: 100%;
+    background-color: whitesmoke;
+    order: 1;
+}
+.navtitel{
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 8%;
+   
+   
+}
+.home{
+    margin-top: 10px;
+    width: 5%;
+
+}
+.link{
+    margin-top: 10px;
+    width: 5%;
+
+}
+.droupdown{
+    height: 40PX;
+    width: 12%;
+    border: none;
+    color: gray;
+    background-color: whitesmoke;
+}
+.disabled{
+    margin-left: 50px;
+    margin-top: 10px;
+    width: 40%;
+
+}
+.searchBar{
+    border-radius: 5px;
+    border: none;
+    margin-left: 50px;
+    margin-top: 5px;
+    height: 25px;
+    width: 15%;
+}
+.searchButton{
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-top: 5px;
+    height: 30px;
+    box-shadow: #4BB543;
+    color:#4BB543 ;
+    border-color: rgb(15, 228, 107);
+    transition: 0.3s;
+    cursor: pointer;
+    background-color: whitesmoke;
+}
+
+.searchButton:hover{
+    background-color:#4BB543 ;
+    border-color:#4BB543 ;
+    color: white;
+}
+@media screen and (min-width:480px) and (max-width:767px){
+    .collaps{
+        margin-top: 200px;
+        order: 3;
+
+    }
+    .navbar{
+        display: flex;
+        flex-wrap: wrap;
+        color: gray;
+        height: 50px;
+        width: 100%;
+        background-color: whitesmoke;
+        order: 2;
+    }
+    .all{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .navtitel{
+        margin-left: 10px;
+        margin-top: 10px;
+        width: 80%;
+       
+       
+    }
+    .list{
+        
+        border-radius: 5px;
+        margin-left: 10px;
+        margin-top: 5px;
+        height: 30px;
+        transition: 0.3s;
+        background-color: whitesmoke;
+    }
+    .list:hover{
+        cursor: pointer;
+        color: white;
+    }
+    .navhide{
+        order: 3;
+        display: flex;
+        flex-wrap: wrap;
+        color: gray;
+        height: 200px;
+        width: 100%;
+        background-color: whitesmoke;
+    }
+    .home{
+        width: 100%;
+    }
+    .link{
+        width: 100%;
+    }
+    .droupdown{
+        width:25%;
+        border: none;
+        color: gray;
+    }
+    .disabled{
+        width: 100%;
+    }
+    .searchBar{
+        border-radius: 5px;
+        border: none;
+        /* height: 25px; */
+        width: 50%;
+    }
+    .searchButton{
+        border-radius: 5px;   
+        height: 30px;
+        box-shadow: #4BB543;
+        color:#4BB543 ;
+        background-color: whitesmoke;
+        border-color: rgb(15, 228, 107);
+        transition: 0.3s;
+        cursor: pointer;
+        
+    }
+    .searchButton:hover{
+        background-color:#4BB543 ;
+        border-color:#4BB543 ;
+        color: white;
+    }
+}
+@media screen and (max-width:480px){
+    .collaps{
+        margin-top: 300px;
+        order: 3;
+        
+    }
+    .navbar{
+        display: flex;
+        flex-wrap: wrap;
+        color: gray;
+        height: 50px;
+        width: 100%;
+        background-color: whitesmoke;
+        order: 2;
+    }
+    .all{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .navtitel{
+        margin-left: 10px;
+        margin-top: 10px;
+        width: 80%;
+       
+       
+    }
+    .list{
+        
+        border-radius: 5px;
+        margin-left: 10px;
+        margin-top: 5px;
+        height: 30px;
+        transition: 0.3s;
+        background-color: whitesmoke;
+    }
+    .list:hover{
+        cursor: pointer;
+        color: white;
+    }
+    .navhide{
+        order: 3;
+        display: flex;
+        flex-wrap: wrap;
+        color: gray;
+        height: 200px;
+        width: 100%;
+        background-color: whitesmoke;
+    }
+    .home{
+        width: 100%;
+    }
+    .link{
+        width: 100%;
+    }
+    .droupdown{
+        width:25%;
+        border: none;
+        color: gray;
+    }
+    .disabled{
+        width: 100%;
+    }
+    .searchBar{
+        border-radius: 5px;
+        border: none;
+        /* height: 25px; */
+        width: 50%;
+    }
+    .searchButton{
+        border-radius: 5px;   
+        height: 30px;
+        box-shadow: #4BB543;
+        color:#4BB543 ;
+        background-color: whitesmoke;
+        border-color: rgb(15, 228, 107);
+        transition: 0.3s;
+        cursor: pointer;
+        
+    }
+    .searchButton:hover{
+        background-color:#4BB543 ;
+        border-color:#4BB543 ;
+        color: white;
+    }
+}
