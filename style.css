@@ -33,6 +33,14 @@
     border: none;
    
 }
+.demo{
+    background-color: blue;
+    border-radius: 5px;
+    border: none;
+    margin-left: 600px ;
+    height: 40px;
+    cursor: pointer;
+}
 .collaps2:hover{
     cursor: pointer;
 }
@@ -112,11 +120,76 @@
     border-color:#4BB543 ;
     color: white;
 }
+.popup{
+    display: flex;
+    position: fixed;
+    flex-wrap: wrap;
+    top: 0;
+    left: 250px;
+    border-radius: 10px;
+    height: 200px;
+    width: 500px;
+    background-color:skyblue;
+}
+.modal{
+    order: 1;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.modaltitel{
+ width: 90%;
+ 
+}
+.modalbody{
+    order: 2;
+    width: 100%;
+   
+}
+.button{
+    order: 3;
+}
+.closebutton{
+    background-color: #555555;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.save{
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: #008CBA
+}
 @media screen and (min-width:480px) and (max-width:767px){
     .collaps{
         margin-top: 200px;
         order: 3;
 
+    }
+    .popup{
+        /* display: flex; */
+        position: fixed;
+        /* flex-wrap: wrap; */
+        top: 0;
+        left: 100px;
+       border: black;
+        height: 200px;
+        width: 500px;
+        background-color:white;
     }
     .navbar{
         display: flex;
@@ -197,12 +270,56 @@
         border-color:#4BB543 ;
         color: white;
     }
+    .demo{
+        background-color: blue;
+        border-radius: 5px;
+        border: none;
+        margin-left: 250px ;
+        height: 40px;
+    }
 }
 @media screen and (max-width:480px){
     .collaps{
         margin-top: 300px;
         order: 3;
         
+    }
+    .popup{
+        /* display: flex; */
+        position: fixed;
+        /* flex-wrap: wrap; */
+        top: 0;
+        left: 0px;
+       border: black;
+        height: 200px;
+        width: 360px;
+        background-color:white;
+    }
+    .modal{
+        order: 1;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .modaltitel{
+     width: 70%;
+     
+    }
+    .modalbody{
+        order: 2;
+        width: 100%;
+       
+    }
+    .button{
+        order: 3;
+    }
+    .demo{
+        background-color: blue;
+        border-radius: 5px;
+        border: none;
+        margin-left: 100px ;
+        height: 40px;
     }
     .navbar{
         display: flex;
