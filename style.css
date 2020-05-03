@@ -189,7 +189,7 @@
        border: black;
         height: 200px;
         width: 500px;
-        background-color:white;
+        background-color:skyblue;
     }
     .navbar{
         display: flex;
@@ -293,7 +293,7 @@
        border: black;
         height: 200px;
         width: 360px;
-        background-color:white;
+        background-color:skyblue;
     }
     .modal{
         order: 1;
